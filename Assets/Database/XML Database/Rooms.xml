@@ -1,0 +1,26 @@
+<Rooms>
+	<Room> <!-- Personal -->
+		<Type>Personal</Type>
+		<Size>5x5</Size>
+		<Structures>Wall Wall Wall Wall Wall</Structures>
+		<Structures>Wall Bed Floor Table Wall</Structures>
+		<Structures>Wall Floor Floor Chair Wall</Structures>
+		<Structures>Wall Chest Floor Floor Wall</Structures>
+		<Structures>Wall Wall Door Wall Wall</Structures>
+	</Room>
+	<Room> <!-- Workshop -->
+		<Type>Workshop</Type>
+		<Size>4x3</Size>
+		<Structures>Wall Wall Wall Wall</Structures>
+		<Structures>Wall Workstation Chair Wall</Structures>
+		<Structures>Wall Wall Door Wall Wall</Structures>
+	</Room>
+	<Room> <!-- Storage -->
+		<Type>Storage</Type>
+		<Size>5x4</Size>
+		<Structures>Wall Wall Wall Wall Wall</Structures>
+		<Structures>Wall Chest Chest Chest Wall</Structures>
+		<Structures>Wall Chest Chest Chest Wall</Structures>
+		<Structures>Wall Wall Door Wall Wall</Structures>
+	</Room>
+</Rooms>

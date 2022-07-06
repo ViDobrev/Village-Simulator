@@ -1,0 +1,54 @@
+<FaunaSpecies>
+	<Species> <!-- Human -->
+		<Name>Human</Name>
+		<Intelligent>True</Intelligent>
+		<Health>100</Health>
+		<Energy>100</Energy>
+		<Speed>1</Speed>
+		<HungerRate>1</HungerRate>
+		<UnarmedAttack>1d6 Crushing</UnarmedAttack>
+		<MovementType>Land</MovementType>
+		<MeatAmount>0</MeatAmount>
+		<LeatherAmount>0</LeatherAmount>
+		<Colour>White</Colour>
+	</Species>
+	<Species> <!-- Wolf -->
+		<Name>Wolf</Name>
+		<Intelligent>False</Intelligent>
+		<Health>80</Health>
+		<Energy>120</Energy>
+		<Speed>1.5</Speed>
+		<HungerRate>1.2</HungerRate>
+		<UnarmedAttack>2d4 Slashing</UnarmedAttack>
+		<MovementType>Land</MovementType>
+		<MeatAmount>6</MeatAmount>
+		<LeatherAmount>2</LeatherAmount>
+		<Colour>Red</Colour>
+	</Species>
+	<Species> <!-- Deer -->
+		<Name>Deer</Name>
+		<Intelligent>False</Intelligent>
+		<Health>60</Health>
+		<Energy>120</Energy>
+		<Speed>1.4</Speed>
+		<HungerRate>1</HungerRate>
+		<UnarmedAttack>1d8 Crushing</UnarmedAttack>
+		<MovementType>Land</MovementType>
+		<MeatAmount>8</MeatAmount>
+		<LeatherAmount>3</LeatherAmount>
+		<Colour>Yellow</Colour>
+	</Species>
+	<Species> <!-- Rabbit -->
+		<Name>Rabbit</Name>
+		<Intelligent>False</Intelligent>
+		<Health>20</Health>
+		<Energy>60</Energy>
+		<Speed>0.8</Speed>
+		<HungerRate>0.4</HungerRate>
+		<UnarmedAttack>1d4 Crushing</UnarmedAttack>
+		<MovementType>Land</MovementType>
+		<MeatAmount>4</MeatAmount>
+		<LeatherAmount>1</LeatherAmount>
+		<Colour>Yellow</Colour>
+	</Species>
+</FaunaSpecies>

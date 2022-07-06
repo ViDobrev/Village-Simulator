@@ -1,0 +1,21 @@
+<States>
+	<!-- Agent states -->
+	<State Priority="1">isHungry</State>
+	<State Priority="1">isStarving</State>
+	<State Priority="1">isTired</State>
+	<State Priority="1">isExhausted</State>
+	<State Priority="1">isWounded</State>
+	<State Priority="1">isGravelyWounded</State>
+	<State Priority="1">isThreatened</State>
+	<State Priority="1">isGravelyThreatened</State>
+
+	<!-- Village states -->
+	<State Priority="1">needsItem</State>
+	<State Priority="1">needsResource</State>
+	<State Priority="1">needsRoom</State>
+	<State Priority="1">needsFood</State>
+
+	<State Priority="1">lowFood</State>
+	<State Priority="1">lowStorage</State>
+	<State Priority="1">villageIsLittered</State>
+</States>

@@ -1,0 +1,187 @@
+<Items>
+	<!-- Materials -->
+	<Item> <!-- Wood -->
+		<Name>Wood</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Stone -->
+		<Name>Stone</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Iron -->
+		<Name>Iron</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Leather -->
+		<Name>Leather</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Cloth -->
+		<Name>Cloth</Name>
+		<Stackable>True</Stackable>
+	</Item>
+
+	<!-- Foods -->
+	<Item> <!-- Berry -->
+		<Name>Berry</Name>
+		<Stackable>True</Stackable>
+		<Value>3</Value>
+	</Item>
+	<Item> <!-- Meat -->
+		<Name>Meat</Name>
+		<Stackable>True</Stackable>
+		<Value>5</Value>
+	</Item>
+
+	<!-- Clothes -->
+	<Item> <!-- Hat -->
+		<Name>Hat</Name>
+		<Stackable>False</Stackable>
+		<Value>5</Value>
+		<Tag>Clothing</Tag>
+		<Defence>1</Defence>
+		<EquipmentSlot>Head</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Leather Fabric</Ingredient>
+			<Yield>1</Yield>
+			<Work>80</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Tunic -->
+		<Name>Tunic</Name>
+		<Stackable>False</Stackable>
+		<Value>8</Value>
+		<Tag>Clothing</Tag>
+		<Defence>2</Defence>
+		<EquipmentSlot>Torso</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Leather Fabric</Ingredient>
+			<Yield>1</Yield>
+			<Work>120</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Trousers -->
+		<Name>Trousers</Name>
+		<Stackable>False</Stackable>
+		<Value>6</Value>
+		<Tag>Clothing</Tag>
+		<Defence>2</Defence>
+		<EquipmentSlot>Legs</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Leather Fabric</Ingredient>
+			<Yield>1</Yield>
+			<Work>100</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Boots -->
+		<Name>Boots</Name>
+		<Stackable>False</Stackable>
+		<Value>5</Value>
+		<Tag>Clothing</Tag>
+		<Defence>1</Defence>
+		<EquipmentSlot>Feet</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Leather Fabric</Ingredient>
+			<Yield>1</Yield>
+			<Work>80</Work>
+		</Recipe>
+	</Item>
+
+	<!-- Tools -->
+	<Item> <!-- Axe -->
+		<Name>Axe</Name>
+		<Stackable>False</Stackable>
+		<Value>10</Value>
+		<Tag>Tool_Woodcutting</Tag>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d8 Slashing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Stone Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>150</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Hammer -->
+		<Name>Hammer</Name>
+		<Stackable>False</Stackable>
+		<Value>8</Value>
+		<Tag>Tool_Crafting</Tag>
+		<Tag>Tool_Building</Tag>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>1d10 Crushing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Stone Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>150</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Pickaxe -->
+		<Name>Pickaxe</Name>
+		<Stackable>False</Stackable>
+		<Value>8</Value>
+		<Tag>Tool_Mining</Tag>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d6 Piercing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Stone Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>150</Work>
+		</Recipe>
+	</Item>
+
+	<!-- Weapons -->
+	<Item> <!-- Sword -->
+		<Name>Sword</Name>
+		<Stackable>False</Stackable>
+		<Value>15</Value>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d6 Slashing</Attack>
+		<Attack>1d10 Piercing</Attack>
+		<Attack>1d4 Crushing</Attack>
+		<Defence>1</Defence>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>200</Work>
+		</Recipe>
+	</Item>
+	<Item> <!-- Club -->
+		<Name>Club</Name>
+		<Stackable>False</Stackable>
+		<Value>4</Value>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>1d4 Crushing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Wood Stone Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>200</Work>
+		</Recipe>
+	</Item>
+
+	<!-- Shields -->
+	<Item> <!-- Shield -->
+		<Name>Shield</Name>
+		<Stackable>False</Stackable>
+		<Value>8</Value>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>1d8 Crushing</Attack>
+		<Defence>2</Defence>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Shield</EquipmentSlot>
+		<Recipe>
+			<Ingredient Amount="1" Main="True">Wood Stone Metal</Ingredient>
+			<Yield>1</Yield>
+			<Work>110</Work>
+		</Recipe>
+	</Item>
+</Items>

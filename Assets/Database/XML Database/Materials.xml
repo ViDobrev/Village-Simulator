@@ -1,0 +1,52 @@
+<Materials>
+	<Material> <!-- Wood -->
+		<Name>Wood</Name>
+		<Type>Wood</Type>
+		<Adjective>Wooden</Adjective>
+		<Toughness>50</Toughness>
+		<Value>2</Value>
+		<DamageModifier>1</DamageModifier>
+		<ArmourModifier>1</ArmourModifier>
+		<Colour>Brown</Colour>
+	</Material>
+	<Material> <!-- Stone -->
+		<Name>Stone</Name>
+		<Type>Stone</Type>
+		<Adjective>Stone</Adjective>
+		<Toughness>80</Toughness>
+		<Value>3</Value>
+		<DamageModifier>2</DamageModifier>
+		<ArmourModifier>2</ArmourModifier>
+		<Colour>Grey</Colour>
+	</Material>
+	<Material> <!-- Leather -->
+		<Name>Leather</Name>
+		<Type>Leather</Type>
+		<Adjective>Leather</Adjective>
+		<Toughness>50</Toughness>
+		<Value>2</Value>
+		<DamageModifier>0</DamageModifier>
+		<ArmourModifier>2</ArmourModifier>
+		<Colour>Grey</Colour>
+	</Material>
+	<Material> <!-- Cloth -->
+		<Name>Cloth</Name>
+		<Type>Fabric</Type>
+		<Adjective>Cloth</Adjective>
+		<Toughness>50</Toughness>
+		<Value>4</Value>
+		<DamageModifier>0</DamageModifier>
+		<ArmourModifier>2</ArmourModifier>
+		<Colour>Grey</Colour>
+	</Material>
+	<Material> <!-- Iron -->
+		<Name>Iron</Name>
+		<Type>Metal</Type>
+		<Adjective>Iron</Adjective>
+		<Toughness>120</Toughness>
+		<Value>5</Value>
+		<DamageModifier>3</DamageModifier>
+		<ArmourModifier>3</ArmourModifier>
+		<Colour>Grey</Colour>
+	</Material>
+</Materials>

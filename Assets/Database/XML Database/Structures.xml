@@ -1,0 +1,74 @@
+<Structures>
+	<Structure> <!-- Workstation -->
+		<Name>Workstation</Name>
+		<Tag>Workstation</Tag>
+		<Durability>60</Durability>
+		<Value>15</Value>
+		<InventorySlots>5</InventorySlots>
+		<Component Amount="1" Work="100">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Chest -->
+		<Name>Chest</Name>
+		<Tag>Storage</Tag>
+		<Durability>40</Durability>
+		<Value>5</Value>
+		<InventorySlots>20</InventorySlots>
+		<Component Amount="1" Work="40">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Table -->
+		<Name>Table</Name>
+		<Tag>Table</Tag>
+		<Durability>20</Durability>
+		<Value>5</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="1" Work="50">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Chair -->
+		<Name>Chair</Name>
+		<Tag>Chair</Tag>
+		<Durability>15</Durability>
+		<Value>5</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="1" Work="40">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Bed -->
+		<Name>Bed</Name>
+		<Tag>Bed</Tag>
+		<Durability>50</Durability>
+		<Value>20</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="1" Work="80">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Wall -->
+		<Name>Wall</Name>
+		<Tag>Wall</Tag>
+		<Durability>100</Durability>
+		<Value>1</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="1" Work="50">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Door -->
+		<Name>Door</Name>
+		<Tag>Door</Tag>
+		<Durability>75</Durability>
+		<Value>1</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="1" Work="60">Wood Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Mountain -->
+		<Name>Mountain</Name>
+		<Tag>Mountain</Tag>
+		<Durability>120</Durability>
+		<Value>0</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="3" Work="0">Stone Metal</Component>
+	</Structure>
+	<Structure> <!-- Rock -->
+		<Name>Rock</Name>
+		<Tag>Rock</Tag>
+		<Durability>60</Durability>
+		<Value>0</Value>
+		<InventorySlots>0</InventorySlots>
+		<Component Amount="3" Work="0">Stone Metal</Component>
+	</Structure>
+</Structures>

@@ -1,0 +1,12 @@
+<Foods>
+	<Food> <!-- Berry -->
+		<Name>Berry</Name>
+		<Type>Herbivore</Type>
+		<Nutrition>25</Nutrition>
+	</Food>
+	<Food> <!-- Meat -->
+		<Name>Meat</Name>
+		<Type>Carnivore</Type>
+		<Nutrition>40</Nutrition>
+	</Food>
+</Foods>

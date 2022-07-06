@@ -1,0 +1,7 @@
+<Floors>
+	<Floor> <!-- Floor -->
+		<Name>Floor</Name>
+		<Durability>20</Durability>
+		<Component Amount="1" Work="35">Wood Stone Metal</Component>
+	</Floor>
+</Floors>
